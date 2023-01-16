@@ -3,7 +3,7 @@ import axios from "axios";
 const options = {
     method: 'GET',
     params:{
-        apiKey: '5477fb7ea84d4964894249a9ad3119bd',
+        apiKey: 'a85d7150035b43d09105844fa9c84182',
     }
 }
 export const getRecipes = async (number) => {

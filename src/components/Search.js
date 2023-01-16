@@ -19,7 +19,8 @@ const Search = ({navigation}) => {
              await loadRecipesDefault(recipes,number+20);
             setNumber(number+20);
     }
-    const loadRecipes = async (name) => {
+    const loadRecipes = async () => {
+        console.log("Here")
         const data = await getRecipes(number);
         console.log(data);
         setRecipes(data.recipes);
